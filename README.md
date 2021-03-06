@@ -53,3 +53,109 @@ Now,
 -One should know how the internet works, how the protocol works
 
 -For spring security one should know -LDAP and OAuth.
+
+
+       ***Software Requirement***
+
+-Spring has his separate IDE called STS- Spring Tool Suite.
+
+-And JDK 8 is a benchmark.
+
+-Any suitable IDE.
+
+
+        ***Spring Tool Suite***
+
+-Behind the scene, STS is an Eclipse.
+
+-It looks like an Eclipse.
+
+-On the left-hand side we have the project section, in this section, we have all the projects.
+
+-In the center, we have an area where we have to write a code.
+
+-In the below section we have a console here.(All the logs will be printed here)-Here we get all the output.
+
+    
+
+  To create your first project in STS-
+
+-Right-click on the project section 
+
+  You will get-
+
+             New-
+
+-Hower over on New-
+
+  You will get a drop-down list as-
+
+  -Spring starting project
+
+  -Import Spring started content
+
+  -Spring legacy project
+
+  -Java Project
+
+  -etc
+
+When you work with the spring framework we have to add spring Dependencies(jars).
+
+This can be achieved by " Maven "
+
+    A maven is basically a Build tool that will help you to
+
+    -To Build Project
+
+    -To get Dependencies.
+
+    -To get a package for the project.
+
+    -To compile your code as well.
+
+But now we can use Maven only for Downloading Dependencies.
+
+  -Click on Maven Project
+
+  -Click on Create New Project.
+
+  -Using Maven you can create Multiple Types of projects like Simple Standalone Project, Web Project, etc.
+
+  -Now we create a "quickstart" project-A simple Project
+
+  -Click on Next
+
+  -Now we can give a Special Name to it
+
+   we can give a -Group ID- com.companyName (com. google)
+
+                 -Artifact ID-demoproject 
+
+                 -Version -Default given
+
+                 -Package- com. google.demoproject
+
+  -And Now click on Finish
+
+  -Now once you click on Finish it will download Maven dependencies, i.e it will create a project for you with the 
+
+   all required Dependencies. 
+
+  In order to more extra Dependencies like JAR file for spring-
+
+  -Open your POM.xml- MAVEN works with this file, in which we have to mention the Dependencies.
+
+  -We have to put a Dependency Tag here <Dependency>.....</Dependency>
+
+  -Search for MVN repository this is where we can download all the maven Dependencies. (https://mvnrepository.com/)
+
+  -Search for  "Spring"
+
+  -Download "Spring Context"- Choose Version that has Maximum Usages.
+
+  -Copy the code and Paste it in pom.xaml - In Dependency Tag.
+
+  -Wait for Downloading All the Dependencies in Console Area.
+
+  *We can also achieve with this "Gradle" (It's optional)*
