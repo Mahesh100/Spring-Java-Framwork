@@ -191,8 +191,6 @@ The other frameworks are-
 
  -Hibernate for Database
 
- 
-
 But in the case of the framework, we have to do a lot of configuration to achieve the things we want.
 
 Now when we talk about Spring-Boot 
@@ -202,4 +200,28 @@ Now when we talk about Spring-Boot
  -One has to focus on logic instead of basic configuration.
 
  -Spring boot will give you all the basic configuration.
+ 
+ Create a Project in Spring boot-
+
+-Right Click on the project section of STS
+
+-Click on New
+
+-Click on Spring Starter Project.
+
+-Give Project name in opened Diloug Box
+
+-Give a group ID
+
+-Give a Package name.
+
+-Click on Next.
+
+-Spring Starter Project means a Spring Boot project.
+
+-Select a Stable Spring boot Version -(2.1.2)
+
+-Click on Next and click on finish.
+
+pom.xml file is where you can add all the required dependencies.
 
