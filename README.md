@@ -179,4 +179,27 @@ But now we can use Maven only for Downloading Dependencies.
  -These Dependencies are to be injected into the application which is coming from the outside world.
 
  -Dependency injection has one more name that is IoC-Inversion of Control.
+ 
+ 
+                       ***Getting Spring Starter Project***
+
+-The Spring is One of the best frameworks available for java.
+
+The other frameworks are-
+
+ -Sturts for web development
+
+ -Hibernate for Database
+
+ 
+
+But in the case of the framework, we have to do a lot of configuration to achieve the things we want.
+
+Now when we talk about Spring-Boot 
+
+ -Spring Boot basically focuses on "Convention over Configuration"
+
+ -One has to focus on logic instead of basic configuration.
+
+ -Spring boot will give you all the basic configuration.
 
