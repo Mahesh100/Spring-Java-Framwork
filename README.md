@@ -159,3 +159,24 @@ But now we can use Maven only for Downloading Dependencies.
   -Wait for Downloading All the Dependencies in Console Area.
 
   *We can also achieve with this "Gradle" (It's optional)*
+  
+                           **Spring Core***
+
+-It is the first module we study from the Spring framework.
+
+-It solves one of the famous issues which is Dependency.
+
+-In the java world, Everything is treated as an object, if you want to achieve anything in java, you need to create an object of it.
+
+-But when you create an Object you just create one object, we have to create multiple ones.
+
+-Here when you create multiple objects that means you are responsible to destroy them.-That's an issue.
+
+-The second issue we have->What if we have multiple classes?
+
+-To solve this we have Dependencies in Spring.
+
+ -These Dependencies are to be injected into the application which is coming from the outside world.
+
+ -Dependency injection has one more name that is IoC-Inversion of Control.
+
