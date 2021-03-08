@@ -228,4 +228,6 @@ pom.xml file is where you can add all the required dependencies.
 ***Spring Boot Autowire***
 
 -When we use Autowire this means the object is created by spring.
+- The object creation is managed by spring framework.
+-
 
