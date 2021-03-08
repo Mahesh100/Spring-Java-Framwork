@@ -225,3 +225,7 @@ Now when we talk about Spring-Boot
 
 pom.xml file is where you can add all the required dependencies.
 
+***Spring Boot Autowire***
+
+-When we use Autowire this means the object is created by spring.
+
