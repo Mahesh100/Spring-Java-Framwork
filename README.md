@@ -229,5 +229,13 @@ pom.xml file is where you can add all the required dependencies.
 
 -When we use Autowire this means the object is created by spring.
 - The object creation is managed by spring framework.
--
+
+
+***Spring Core IOC***
+
+-How the things are done behind the scean?
+
+**Bean Factory**
+
+-We will be creating a Simple Spring Boot Project
 
