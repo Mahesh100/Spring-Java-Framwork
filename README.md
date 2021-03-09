@@ -236,6 +236,8 @@ pom.xml file is where you can add all the required dependencies.
 -How the things are done behind the scean?
 
 **Bean Factory**
+-Normally a BeanFactory will load bean definitions stored in a configuration source (such as an XML document), 
+ and use the org.springframework.beans package to configure the beans.
 -The BeanFactory is the most basic version of IOC containers.
 -Most Spring users use a BeanFactory or ApplicationContext variant which supports XML format configuration files.
 -Each bean has dependencies expressed in the form of properties, constructor arguments, or arguments to the static-factory method when that is used instead of a normal  constructor.
