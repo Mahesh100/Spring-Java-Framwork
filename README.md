@@ -237,5 +237,4 @@ pom.xml file is where you can add all the required dependencies.
 
 **Bean Factory**
 
--We will be creating a Simple Spring Boot Project
 
