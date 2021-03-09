@@ -237,4 +237,4 @@ pom.xml file is where you can add all the required dependencies.
 
 **Bean Factory**
 
-
+-Most Spring users use a BeanFactory or ApplicationContext variant which supports XML format configuration files.
