@@ -249,4 +249,7 @@ pom.xml file is where you can add all the required dependencies.
 -It implements the BeanFactory interface.
 -Application Contxt represents the Spring IoC container and is responsible for instantiating, configuring, and assembling the beans.
 -The container gets its instructions on what objects to instantiate, configure, and assemble by reading configuration metadata.
+-We can have multiple application contexts that share a parent-child relationship.
+-
+-
 
