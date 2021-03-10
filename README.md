@@ -242,3 +242,6 @@ pom.xml file is where you can add all the required dependencies.
 -Most Spring users use a BeanFactory or ApplicationContext variant which supports XML format configuration files.
 -Each bean has dependencies expressed in the form of properties, constructor arguments, or arguments to the static-factory method when that is used instead of a normal  constructor.
 - Bean Factory only instantiate bean when you call getBean() method.
+
+***Application Context***
+
