@@ -247,4 +247,5 @@ pom.xml file is where you can add all the required dependencies.
 
 -The ApplicationContext is the central interface within a Spring application that is used for providing configuration information to the application. 
 -It implements the BeanFactory interface.
+-Application Contxt represents the Spring IoC container and is responsible for instantiating, configuring, and assembling the beans
 
