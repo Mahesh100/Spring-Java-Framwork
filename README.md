@@ -250,6 +250,6 @@ pom.xml file is where you can add all the required dependencies.
 -Application Contxt represents the Spring IoC container and is responsible for instantiating, configuring, and assembling the beans.
 -The container gets its instructions on what objects to instantiate, configure, and assemble by reading configuration metadata.
 -We can have multiple application contexts that share a parent-child relationship.
--
+-A context hierarchy allows multiple child contexts to share beans which reside in the parent context.
 -
 
