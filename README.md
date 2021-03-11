@@ -256,6 +256,8 @@ pom.xml file is where you can add all the required dependencies.
 ***Spring Container***
 -The Spring container is at the core of the Spring Framework.
 -The container will create the objects, wire them together, configure them, and manage their complete life cycle from creation till destruction.
--The Spring container uses DI to manage the components
+-The Spring container uses DI to manage the components.
+- The IoC container receives metadata from either an XML file, Java annotations, or Java code.
+- 
 
 
