@@ -253,3 +253,7 @@ pom.xml file is where you can add all the required dependencies.
 - A context hierarchy allows multiple child contexts to share beans which reside in the parent context.
 - Each child context can override configuration inherited from the parent context.
 
+***Spring Container***
+-The Spring container is at the core of the Spring Framework.
+
+
