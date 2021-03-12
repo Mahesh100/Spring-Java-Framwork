@@ -267,4 +267,9 @@ pom.xml file is where you can add all the required dependencies.
 -As a rule of thumb, you should use the prototype scope for all beans that are stateful, while the singleton scope should be used for stateless beans.
 -Singleton, will create a new instance in the first call, and return it in subsequent calls.
 -Prototype will return a new instance each time.
--With Singleton scope, one and only one instance of a bean is created with the provided bean definition and for subsequent requests for the same bean, Spring container will return the same instance 
+-With Singleton scope, one and only one instance of a bean is created with the provided bean definition and for subsequent requests for the same bean, Spring container will return the same instance
+--For prototype scope, for each request for the bean, a new instance of the bean will be created and returned. This is similar to calling new operator in java for a class.
+
+
+
+
