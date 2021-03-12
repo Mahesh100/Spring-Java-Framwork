@@ -266,7 +266,7 @@ pom.xml file is where you can add all the required dependencies.
 -Prototype: A new instance will be created for a single bean definition every time a request is made for that bean.
 -As a rule of thumb, you should use the prototype scope for all beans that are stateful, while the singleton scope should be used for stateless beans.
 -Singleton, will create a new instance in the first call, and return it in subsequent calls.
--
+-Prototype will return a new instance each time.
 
 
 
