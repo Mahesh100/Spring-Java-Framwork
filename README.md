@@ -261,4 +261,5 @@ pom.xml file is where you can add all the required dependencies.
 - The container gets its instructions on what objects to instantiate, configure, and assemble from simple Plain Old Java Objects (POJO) by reading the configuration metadata   provided.
 - The container, use for creating the objects and configuring them.
 
-
+****Singleton vs Prototype spring***
+-Singleton: Only one instance will be created for a single bean definition per Spring IoC container and the same object will be shared for each request made for that bean. 
