@@ -263,3 +263,5 @@ pom.xml file is where you can add all the required dependencies.
 
 ****Singleton vs Prototype spring***
 -Singleton: Only one instance will be created for a single bean definition per Spring IoC container and the same object will be shared for each request made for that bean. 
+-Prototype: A new instance will be created for a single bean definition every time a request is made for that bean.
+
