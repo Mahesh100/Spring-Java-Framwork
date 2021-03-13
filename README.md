@@ -271,8 +271,9 @@ pom.xml file is where you can add all the required dependencies.
 --For prototype scope, for each request for the bean, a new instance of the bean will be created and returned. This is similar to calling new operator in java for a class.
 
 ***Setter Injection***
+
 -Spring Setter Injection is nothing but injecting the Bean Dependencies using the Setter methods on an Object.
--
+-In Setter Injection, the object is created first and then the dependency is injected.
 
 
 
