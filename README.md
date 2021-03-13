@@ -274,6 +274,7 @@ pom.xml file is where you can add all the required dependencies.
 
 -Spring Setter Injection is nothing but injecting the Bean Dependencies using the Setter methods on an Object.
 -In Setter Injection, the object is created first and then the dependency is injected.
+-Setter Injection is the preferable method of Dependency Injection (DI) in the spring framework. 
 
 
 
