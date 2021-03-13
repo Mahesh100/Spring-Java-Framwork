@@ -270,6 +270,10 @@ pom.xml file is where you can add all the required dependencies.
 -With Singleton scope, one and only one instance of a bean is created with the provided bean definition and for subsequent requests for the same bean, Spring container will return the same instance
 --For prototype scope, for each request for the bean, a new instance of the bean will be created and returned. This is similar to calling new operator in java for a class.
 
+***Setter Injection***
+-Spring Setter Injection is nothing but injecting the Bean Dependencies using the Setter methods on an Object.
+-
+
 
 
 
