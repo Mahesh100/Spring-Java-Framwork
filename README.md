@@ -280,7 +280,6 @@ pom.xml file is where you can add all the required dependencies.
 -The setter based injection can work even If some dependencies have been injected using the constructor.
 -If you have many setter methods, then it is convenient to use p-namespace in the XML configuration file.
 
-
-
-
-
+***Ref Attribute***
+-Spring Bean Reference ,<ref> Tag in Spring. ... In Spring, beans can "access" to each other by specify the bean references in the same or different bean configuration file.
+-
