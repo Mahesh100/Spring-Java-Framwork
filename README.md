@@ -284,4 +284,5 @@ pom.xml file is where you can add all the required dependencies.
 - Spring Bean Reference ,<ref> Tag in Spring. ... In Spring, beans can "access" to each other by specify the bean references in the same or different bean configuration file.
 -In spring we can write multiple configuration xml file. Our associated bean may be in same xml or in other xml file.
 -If there is a dependency between two objects then in the spring bean configuration file we use a tag "ref" to specify the dependencies.
+-Import the xml defining the bean with <import resource="otherXml. xml"> and you will be able to use the bean definition. 
           
