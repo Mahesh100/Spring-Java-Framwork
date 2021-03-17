@@ -286,4 +286,6 @@ pom.xml file is where you can add all the required dependencies.
 -If there is a dependency between two objects then in the spring bean configuration file we use a tag "ref" to specify the dependencies.
 -Import the xml defining the bean with <import resource="otherXml. xml"> and you will be able to use the bean definition. 
           
-***Constructor injection in spring***          
+***Constructor injection in spring***    
+-The responsibility of object creation and injecting the dependencies is given to the framework (i.e. Spring) instead of the class creating the dependency objects by itself.
+-We can implement dependency injection with: constructor-based injection, setter-based injection, or. field-based injection.
