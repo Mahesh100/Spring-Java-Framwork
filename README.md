@@ -289,3 +289,7 @@ pom.xml file is where you can add all the required dependencies.
 ***Constructor injection in spring***    
 -The responsibility of object creation and injecting the dependencies is given to the framework (i.e. Spring) instead of the class creating the dependency objects by itself.
 -We can implement dependency injection with: constructor-based injection, setter-based injection, or. field-based injection.
+-Constructor Injection is the act of statically defining the list of required Dependencies by specifying them as parameters to the class's constructor
+-A constructor therefore enforces the dependency requirement whether or not you're using Spring, making it container-agnostic. 
+- If you use setter injection, the setter may or may not be called, so the instance may never be provided with its dependency.
+-
