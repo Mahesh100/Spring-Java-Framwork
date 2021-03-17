@@ -294,4 +294,4 @@ pom.xml file is where you can add all the required dependencies.
 -The class that needs the Dependency must expose a public constructor that takes an instance of the required Dependency as a constructor argument.
 -A constructor therefore enforces the dependency requirement whether or not you're using Spring, making it container-agnostic. 
 - If you use setter injection, the setter may or may not be called, so the instance may never be provided with its dependency.
--
+-constructor injection ensures all mandatory properties have been satisfied
