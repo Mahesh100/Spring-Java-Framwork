@@ -308,4 +308,4 @@ pom.xml file is where you can add all the required dependencies.
 -  Additionally, you will need to annotate any configuration bean with @EnableSpringConfigured so that Spring is aware of your configurable beans.
 -  Similar to functionality found in Spring's XML element.
 -  @Autowire annotation will work only those objects which are managed by spring (ie created by the spring container).
-
+-  In your case the service and controller object are managed by spring.
