@@ -303,3 +303,5 @@ pom.xml file is where you can add all the required dependencies.
 - In other words, by declaring all the bean dependencies in a Spring configuration file, Spring container can autowire relationships between collaborating beans.
 - This is called Spring bean autowiring.
 - The autowiring functionality has four modes. 
+- These are ' no ', ' byName ', ' byType ' and ' constructor '. Another autowire mode autodetect has been deprecated.
+
