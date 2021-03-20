@@ -301,3 +301,4 @@ pom.xml file is where you can add all the required dependencies.
 - It internally uses setter or constructor injection. Autowiring can't be used to inject primitive and string values.
 - The Spring framework enables automatic dependency injection.
 - In other words, by declaring all the bean dependencies in a Spring configuration file, Spring container can autowire relationships between collaborating beans.
+- This is called Spring bean autowiring.
