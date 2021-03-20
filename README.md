@@ -306,5 +306,6 @@ pom.xml file is where you can add all the required dependencies.
 - These are ' no ', ' byName ', ' byType ' and ' constructor '. Another autowire mode autodetect has been deprecated.
 - You can use Spring's @Configurable annotation in the class you want to autowire other beans.
 -  Additionally, you will need to annotate any configuration bean with @EnableSpringConfigured so that Spring is aware of your configurable beans.
--  Similar to functionality found in Spring's XML element
+-  Similar to functionality found in Spring's XML element.
+-  @Autowire annotation will work only those objects which are managed by spring (ie created by the spring container).
 
