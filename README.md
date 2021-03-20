@@ -304,4 +304,6 @@ pom.xml file is where you can add all the required dependencies.
 - This is called Spring bean autowiring.
 - The autowiring functionality has four modes. 
 - These are ' no ', ' byName ', ' byType ' and ' constructor '. Another autowire mode autodetect has been deprecated.
+- You can use Spring's @Configurable annotation in the class you want to autowire other beans.
+- 
 
