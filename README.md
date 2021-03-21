@@ -311,4 +311,6 @@ pom.xml file is where you can add all the required dependencies.
 -  In your case the service and controller object are managed by spring.
 -  but your POJO class is not managed by spring, that is why the @Autowire is not producing the behavior expected by you.
 
+***Primary Bean in spring***
+
 
