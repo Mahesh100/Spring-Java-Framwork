@@ -317,5 +317,6 @@ pom.xml file is where you can add all the required dependencies.
 -These beans are created with the configuration metadata that you supply to the container.
 -singleton is default bean scope in spring container.
 -It tells the container to create and manage only one instance of bean class, per container.
+This single instance is stored in a cache of such singleton beans, and all subsequent requests and references for that named bean return the cached instance.
 
 
