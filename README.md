@@ -314,5 +314,6 @@ pom.xml file is where you can add all the required dependencies.
 ***Primary Bean in spring***
 -The default bean name is @Bean annotated method name.
 -A bean is an object that is instantiated, assembled, and otherwise managed by a Spring IoC container. 
+-These beans are created with the configuration metadata that you supply to the container.
 
 
