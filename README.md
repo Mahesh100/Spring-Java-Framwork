@@ -327,4 +327,5 @@ This single instance is stored in a cache of such singleton beans, and all subse
 -The Model encapsulates the application data and in general they will consist of POJO.
 -Web frameworks like Spring MVC are designed to make building web applications, which handle HTTP requests and responses, easier.
 -Most Java web frameworks, including Spring MVC, use servlets behind the scenes. 
+-You CAN use servlets to write a web application, but you'll have to handle all of the details manually.
 
