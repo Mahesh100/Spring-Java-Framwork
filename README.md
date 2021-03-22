@@ -323,4 +323,6 @@ This single instance is stored in a cache of such singleton beans, and all subse
 -A Spring MVC is a Java framework which is used to build web applications. 
 -It follows the Model-View-Controller design pattern. 
 -It implements all the basic features of a core spring framework like Inversion of Control, Dependency Injection.
+-The Spring Web MVC framework provides Model-View-Controller (MVC) architecture and ready components that can be used to develop flexible and loosely coupled web applications. 
+-
 
