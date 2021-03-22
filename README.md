@@ -325,5 +325,5 @@ This single instance is stored in a cache of such singleton beans, and all subse
 -It implements all the basic features of a core spring framework like Inversion of Control, Dependency Injection.
 -The Spring Web MVC framework provides Model-View-Controller (MVC) architecture and ready components that can be used to develop flexible and loosely coupled web applications. 
 -The Model encapsulates the application data and in general they will consist of POJO.
--
+-Web frameworks like Spring MVC are designed to make building web applications, which handle HTTP requests and responses, easier.
 
