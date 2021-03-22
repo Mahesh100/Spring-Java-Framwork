@@ -319,4 +319,7 @@ pom.xml file is where you can add all the required dependencies.
 -It tells the container to create and manage only one instance of bean class, per container.
 This single instance is stored in a cache of such singleton beans, and all subsequent requests and references for that named bean return the cached instance.
 
+***Spring MVC Theory***
+-A Spring MVC is a Java framework which is used to build web applications. 
+
 
