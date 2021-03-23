@@ -329,3 +329,5 @@ This single instance is stored in a cache of such singleton beans, and all subse
 -Most Java web frameworks, including Spring MVC, use servlets behind the scenes. 
 -You CAN use servlets to write a web application, but you'll have to handle all of the details manually.
 
+***Creating Controller in Spring
+
