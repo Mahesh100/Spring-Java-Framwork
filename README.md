@@ -329,5 +329,7 @@ This single instance is stored in a cache of such singleton beans, and all subse
 -Most Java web frameworks, including Spring MVC, use servlets behind the scenes. 
 -You CAN use servlets to write a web application, but you'll have to handle all of the details manually.
 
-***Creating Controller in Spring
+***Creating Controller in Spring***
+-Application is the entry point which sets up Spring Boot application.
+-The @SpringBootApplication annotation enables auto-configuration and component scanning.
 
