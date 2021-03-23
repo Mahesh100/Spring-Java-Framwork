@@ -333,4 +333,5 @@ This single instance is stored in a cache of such singleton beans, and all subse
 -Application is the entry point which sets up Spring Boot application.
 -The @SpringBootApplication annotation enables auto-configuration and component scanning.
 -During the scanning process, the @Controller annotation is looked up and a Spring bean is created from the MyController class.
+- In Spring Boot, the controller class is responsible for processing incoming REST API requests, preparing a model, and returning the view to be rendered as a response.
 
