@@ -343,4 +343,5 @@ This single instance is stored in a cache of such singleton beans, and all subse
 - At runtime, Jasper detects changes to JSP files and recompiles them.
 -  As of version 5, Tomcat uses Jasper 2, which is an implementation of the Sun Microsystems' JSP 2.0 specification.
 -  Jasper also has a dependency on Jackson.
-
+-Tomcat is used for web applications written in Java that don't require full Java EE specifications
+-
