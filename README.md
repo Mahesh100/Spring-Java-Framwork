@@ -337,3 +337,8 @@ This single instance is stored in a cache of such singleton beans, and all subse
 - The controller classes in Spring are annotated either by the @Controller or the @RestController annotation.
 - -he Spring Framework does allow you to autowire private fields.
 
+***Tomcat Jsper***
+-Jasper is Tomcat's JSP Engine.
+-Jasper parses JSP files to compile them into Java code as servlets (that can be handled by Catalina). 
+- At runtime, Jasper detects changes to JSP files and recompiles them.
+
