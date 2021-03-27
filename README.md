@@ -346,5 +346,6 @@ This single instance is stored in a cache of such singleton beans, and all subse
 -Tomcat is used for web applications written in Java that don't require full Java EE specifications
 - The reason Tomcat is not really a full application server is because it acts only as a Web server and Servlet container.
 
-What is @RequestParam in spring?
+***@RequestParam in spring***
+
 In Spring MVC, the @RequestParam annotation is used to read the form data and bind it automatically to the parameter present in the provided method. So, it ignores the requirement of HttpServletRequest object to read the provided data.
