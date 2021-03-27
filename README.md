@@ -348,4 +348,5 @@ This single instance is stored in a cache of such singleton beans, and all subse
 
 ***@RequestParam in spring***
 
-In Spring MVC, the @RequestParam annotation is used to read the form data and bind it automatically to the parameter present in the provided method. So, it ignores the requirement of HttpServletRequest object to read the provided data.
+-In Spring MVC, the @RequestParam annotation is used to read the form data and bind it automatically to the parameter present in the provided method. 
+-So, it ignores the requirement of HttpServletRequest object to read the provided data.
