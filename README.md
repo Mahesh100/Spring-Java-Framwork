@@ -363,4 +363,5 @@ This single instance is stored in a cache of such singleton beans, and all subse
 - In Spring MVC, the model works a container that contains the data of the application.
 - Here, a data can be in any form such as objects, strings, information from the database, etc.
 - It is required to place the Model interface in the controller part of the application.
+- The Model represents formal underlying data constructs that the View uses to present the user with the look and feel of the application.
 
