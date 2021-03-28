@@ -362,4 +362,5 @@ This single instance is stored in a cache of such singleton beans, and all subse
 - The Spring Web model-view-controller (MVC) framework is designed around a DispatcherServlet that dispatches requests to handlers, with configurable handler mappings, view resolution, locale and theme resolution as well as support for uploading files.
 - In Spring MVC, the model works a container that contains the data of the application.
 - Here, a data can be in any form such as objects, strings, information from the database, etc.
+- It is required to place the Model interface in the controller part of the application.
 
