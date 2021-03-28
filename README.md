@@ -364,4 +364,5 @@ This single instance is stored in a cache of such singleton beans, and all subse
 - Here, a data can be in any form such as objects, strings, information from the database, etc.
 - It is required to place the Model interface in the controller part of the application.
 - The Model represents formal underlying data constructs that the View uses to present the user with the look and feel of the application.
+- The @ModelAttribute is an annotation that binds a method parameter or method return value to a named model attribute and then exposes it to a web view. 
 
