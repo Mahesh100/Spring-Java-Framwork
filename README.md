@@ -360,4 +360,5 @@ This single instance is stored in a cache of such singleton beans, and all subse
 - ModelAndView merely holds both to make it possible for a controller to return both model and view in a single return value. 
 - The view is resolved by a ViewResolver object; the model is data stored in a Map.
 - The Spring Web model-view-controller (MVC) framework is designed around a DispatcherServlet that dispatches requests to handlers, with configurable handler mappings, view resolution, locale and theme resolution as well as support for uploading files.
+- In Spring MVC, the model works a container that contains the data of the application.
 
