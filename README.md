@@ -358,4 +358,6 @@ This single instance is stored in a cache of such singleton beans, and all subse
 -ModelAndView is a holder for both Model and View in the web MVC framework.
 -These two classes are distinct in nature.
 - ModelAndView merely holds both to make it possible for a controller to return both model and view in a single return value. 
+- The view is resolved by a ViewResolver object; the model is data stored in a Map.
+- 
 
