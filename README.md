@@ -366,3 +366,6 @@ This single instance is stored in a cache of such singleton beans, and all subse
 - The Model represents formal underlying data constructs that the View uses to present the user with the look and feel of the application.
 - The @ModelAttribute is an annotation that binds a method parameter or method return value to a named model attribute and then exposes it to a web view. 
 
+***Prefix and Suffix in Spring***
+-
+
