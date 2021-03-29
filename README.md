@@ -370,4 +370,5 @@ This single instance is stored in a cache of such singleton beans, and all subse
 -The InternalResourceViewResolver allows mapping webpages with requests. /hello is requested, DispatcherServlet will forward the request to the prefix + viewname + suffix = /WEB-INF/jsp/hello.
 -The two interfaces which are important to the way Spring handles views are ViewResolver and View . 
 -The ViewResolver provides a mapping between view names and actual views.
+-The View interface addresses the preparation of the request and hands the request over to one of the view technologies.
 
