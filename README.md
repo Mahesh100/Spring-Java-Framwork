@@ -367,5 +367,5 @@ This single instance is stored in a cache of such singleton beans, and all subse
 - The @ModelAttribute is an annotation that binds a method parameter or method return value to a named model attribute and then exposes it to a web view. 
 
 ***Prefix and Suffix in Spring***
--
+-The InternalResourceViewResolver allows mapping webpages with requests. /hello is requested, DispatcherServlet will forward the request to the prefix + viewname + suffix = /WEB-INF/jsp/hello.
 
