@@ -368,4 +368,5 @@ This single instance is stored in a cache of such singleton beans, and all subse
 
 ***Prefix and Suffix in Spring***
 -The InternalResourceViewResolver allows mapping webpages with requests. /hello is requested, DispatcherServlet will forward the request to the prefix + viewname + suffix = /WEB-INF/jsp/hello.
+-The two interfaces which are important to the way Spring handles views are ViewResolver and View . 
 
