@@ -376,5 +376,6 @@ This single instance is stored in a cache of such singleton beans, and all subse
 - One of such view resolver is InternalResourceViewResolver.
 
 ***Model AND Model Mao In spring***
+--Model , ModelMap , and ModelAndView are used to define a model in a Spring MVC application.
 
 
