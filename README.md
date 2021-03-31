@@ -373,4 +373,8 @@ This single instance is stored in a cache of such singleton beans, and all subse
 -The View interface addresses the preparation of the request and hands the request over to one of the view technologies.
 -Spring uses ViewResolver to translate the view names in @Controller to actual View.
 -The Spring auto-configuration (in this case WebMvcAutoConfiguration) will add few default ViewResolvers in your context.
-- One of such view resolver is InternalResourceViewResolver .
+- One of such view resolver is InternalResourceViewResolver.
+
+***Model AND Model Mao In spring***
+
+
