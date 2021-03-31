@@ -377,5 +377,6 @@ This single instance is stored in a cache of such singleton beans, and all subse
 
 ***Model AND Model Mao In spring***
 --Model , ModelMap , and ModelAndView are used to define a model in a Spring MVC application.
+-Model defines a holder for model attributes and is primarily designed for adding attributes to the model. 
 
 
