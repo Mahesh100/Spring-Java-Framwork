@@ -386,7 +386,7 @@ This single instance is stored in a cache of such singleton beans, and all subse
 - The injection is achieved by binding a method return value to the model.
 - @ModelAttribute has an element as value. 
 - @ModelAttribute can be used at method level as well as parameter level. 
-
+- The @ModelAttribute Annotation can be used at two levels in a Controller class. 
 
 
 
