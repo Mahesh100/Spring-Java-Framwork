@@ -389,6 +389,7 @@ This single instance is stored in a cache of such singleton beans, and all subse
 - The @ModelAttribute Annotation can be used at two levels in a Controller class. 
 - At Method argument level & At Method level.
 - It allows you to have default values in your Model Object.
+- The attributes commandName and modelAttribute on the form:form tag do primarily the same thing, which is to map the form's fields to an Object of some type in the       Controller.
 
 
 
