@@ -382,6 +382,7 @@ This single instance is stored in a cache of such singleton beans, and all subse
 
 ***Model Attribute and Method Level***
 -Use @ModelAttribute at the method level to provide reference data for the model. @ModelAttribute annotated methods are executed before the chosen @RequestMapping annotated handler method. 
+-They effectively pre-populate the implicit model with specific attributes, often loaded from a database
 
 
 
