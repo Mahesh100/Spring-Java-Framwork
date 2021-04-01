@@ -387,7 +387,7 @@ This single instance is stored in a cache of such singleton beans, and all subse
 - @ModelAttribute has an element as value. 
 - @ModelAttribute can be used at method level as well as parameter level. 
 - The @ModelAttribute Annotation can be used at two levels in a Controller class. 
-- At Method argument level 
+- At Method argument level & At Method level.
 
 
 
