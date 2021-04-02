@@ -395,7 +395,7 @@ This single instance is stored in a cache of such singleton beans, and all subse
 ***Post Mapping In Spring***
 -@PostMapping is specialized version of @RequestMapping annotation that acts as a shortcut for @RequestMapping(method = RequestMethod. POST).
 - @PostMapping annotated methods handle the HTTP POST requests matched with given URI expression.
-
+-@PostMapping annotation maps HTTP POST requests onto specific handler methods.
 
 
 
