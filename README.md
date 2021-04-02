@@ -392,6 +392,9 @@ This single instance is stored in a cache of such singleton beans, and all subse
 - The attributes commandName and modelAttribute on the form:form tag do primarily the same thing, which is to map the form's fields to an Object of some type in the       Controller.
 
 
+***Post Mapping In Spring***
+-@PostMapping is specialized version of @RequestMapping annotation that acts as a shortcut for @RequestMapping(method = RequestMethod. POST) .
+
 
 
 
