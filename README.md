@@ -401,3 +401,6 @@ This single instance is stored in a cache of such singleton beans, and all subse
 ***Spring ORM ***
 
 -Spring-ORM is an umbrella module that covers many persistence technologies, namely JPA, JDO, Hibernate and iBatis.
+- For each technology, the configuration basically consists in injecting a DataSource bean into some kind of SessionFactory or EntityManagerFactory etc. bean.
+
+
