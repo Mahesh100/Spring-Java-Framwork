@@ -398,4 +398,6 @@ This single instance is stored in a cache of such singleton beans, and all subse
 -@PostMapping annotation maps HTTP POST requests onto specific handler methods.
 -It is a composed annotation that acts as a shortcut for @RequestMapping(method = RequestMethod. POST) .
 
+***Spring ORM ***
+
 
