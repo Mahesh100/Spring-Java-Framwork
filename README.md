@@ -410,3 +410,6 @@ This single instance is stored in a cache of such singleton beans, and all subse
 -create table in the database (It is optional).
 -reate applicationContext. xml file It contains information of DataSource, SessionFactory etc.
 -create Employee. 
+-create employee.
+-create EmployeeDao.
+-
