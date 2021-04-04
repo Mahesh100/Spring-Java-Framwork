@@ -408,4 +408,4 @@ This single instance is stored in a cache of such singleton beans, and all subse
 *Simple steps for hibernate and spring integration-
 
 -create table in the database (It is optional).
--
+-reate applicationContext. xml file It contains information of DataSource, SessionFactory etc.
