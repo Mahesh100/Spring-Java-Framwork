@@ -413,3 +413,8 @@ This single instance is stored in a cache of such singleton beans, and all subse
 -create employee.
 -create EmployeeDao.
 -create InsertTest.
+
+
+* Spring MVC integrate with Hibernate:-
+
+
