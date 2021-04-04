@@ -416,5 +416,4 @@ This single instance is stored in a cache of such singleton beans, and all subse
 
 
 * Spring MVC integrate with Hibernate:-
-
-
+-Step 1: Create the directory structure. Following will be the final project structure: ...
