@@ -428,6 +428,7 @@ This single instance is stored in a cache of such singleton beans, and all subse
 
 -In computer software, a data access object (DAO) is a pattern that provides an abstract interface to some type of database or other persistence mechanism. 
 -By mapping application calls to the persistence layer, the DAO provides some specific data operations without exposing details of the database.
+-DAO is an abstraction for accessing data, the idea is to separate the technical details of data access from the rest of the application.
 
 
 
