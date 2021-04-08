@@ -432,6 +432,8 @@ This single instance is stored in a cache of such singleton beans, and all subse
 
 
 ***Spring Data and JPA Configuration****
+-Hibernate is a JPA implementation, while Spring Data JPA is a JPA Data Access Abstraction. 
+
 
 
 
