@@ -437,6 +437,9 @@ This single instance is stored in a cache of such singleton beans, and all subse
 -Spring Data offers a solution to GenericDao custom implementations.
 
 
+***Jparepository in spring boot***
+
+
 
 
 
