@@ -439,6 +439,7 @@ This single instance is stored in a cache of such singleton beans, and all subse
 
 ***Jparepository in spring boot***
 -The Spring Data JPA simplifies the development of Spring applications that use JPA technology.
+-With Spring Data, we define a repository interface for each domain entity in the application. 
 
 
 
