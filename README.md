@@ -446,6 +446,7 @@ This single instance is stored in a cache of such singleton beans, and all subse
 *** Query DSL (Domain Specific Language)***
 -Elasticsearch provides a full Query DSL (Domain Specific Language) based on JSON to define queries. 
 -Think of the Query DSL as an AST (Abstract Syntax Tree) of queries, consisting of two types of clauses:
+  --Leaf query clauses look for a particular value in a particular field, such as the match , term or range queries.
 
 
 
