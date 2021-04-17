@@ -444,6 +444,7 @@ This single instance is stored in a cache of such singleton beans, and all subse
 
 
 *** Query DSL (Domain Specific Language)***
+-Elasticsearch provides a full Query DSL (Domain Specific Language) based on JSON to define queries. 
 
 
 
