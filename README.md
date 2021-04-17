@@ -443,6 +443,9 @@ This single instance is stored in a cache of such singleton beans, and all subse
 -A repository contains methods for performing CRUD operations, sorting and paginating data.
 
 
+*** Query DSL (Domain Specific Language)***
+
+
 
 
 
