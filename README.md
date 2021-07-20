@@ -7,8 +7,6 @@ The spring framework
 
 Yes we have different framework before Example for---
 
-
-
 Web Development we use Sturts.
 In the enterprise market, we use happy with EJP.
 For the database side, we use JPA.
