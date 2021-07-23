@@ -18,7 +18,6 @@ Spring is actually the combination of multiple projects.
 Example: If you want to achieve a very common feature of the spring which is Dependency Injection.
 
           We have a separate module for it and if one wants to build Web application we have separate module or it
-
           And if one wants to build the rest application we have separate module. The Spring Framework can also be used for security.
 
           **The Spring is basically the collection of the module it has**
