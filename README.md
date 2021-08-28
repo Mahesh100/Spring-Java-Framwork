@@ -5,8 +5,7 @@ Introduction To Spring
 Spring is one of the best frameworks available for java.
 The spring framework
 
-Yes we have different framework before Example for---
-
+Yes we have different framework before Example for--
 Web Development we use Sturts.
 In the enterprise market, we use happy with EJP.
 For the database side, we use JPA.
